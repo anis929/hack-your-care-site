@@ -1,0 +1,18 @@
+.page-home .hero{isolation:isolate;background:transparent}
+.page-home .hero:before{content:'';position:absolute;inset:0 calc(-1 * var(--gutter));z-index:-2;background:linear-gradient(112deg,#f7f9f6 8%,#f0f5f8 48%,#e4edf9 100%)}
+.page-home .hero-art:before{content:'';position:absolute;right:-12%;top:8%;width:85%;height:83%;background:#16386e08;border-radius:50%;z-index:-1}
+.hero-line{display:inline-flex;align-items:baseline;gap:.12em}
+.page-home .hero-script{font-size:1.32em;line-height:1;transform:none;vertical-align:baseline;padding:0;top:.015em}
+.page-home .hero-script:after{left:2px;right:0;bottom:0;height:7px;transform:none;opacity:.8}
+.page-home .entry-paths{display:flex;flex-direction:column;gap:0;border-top:1px solid #16386e28;margin-top:28px;max-width:490px}
+.page-home .entry-path{display:grid;grid-template-columns:24px 1fr 39px;gap:12px;align-items:center;min-height:0;padding:16px 0;border:0;border-bottom:1px solid #16386e28;border-radius:0;background:transparent;transition:padding .25s}
+.page-home .entry-path:hover{background:none;transform:none;padding-left:6px;padding-right:6px}
+.entry-num{font-size:9px;letter-spacing:.02em;color:#567093}
+.page-home .entry-title{display:block;font-size:15px;line-height:1.3;letter-spacing:-.025em;padding:0;font-weight:650}
+.page-home .entry-kicker{display:block;font-size:9px;letter-spacing:0;line-height:1.5;font-weight:450;margin:5px 0 0;color:#536b89}
+.page-home .path-arrow{position:static;display:grid;place-items:center;width:37px;height:37px;border:1px solid #16386e3d;border-radius:50%;font-size:23px;line-height:1;color:var(--blue);transition:background .25s,border-color .25s,transform .25s}
+.page-home .entry-path:hover .path-arrow{background:var(--green);border-color:var(--green);transform:rotate(45deg)}
+.page-home .hero-note{color:#00996a}
+@media(max-width:850px){.page-home .entry-title{font-size:13px}.page-home .entry-kicker{font-size:8px}.page-home .entry-path{gap:8px;grid-template-columns:19px 1fr 34px;padding-block:14px}.page-home .path-arrow{width:32px;height:32px}}
+@media(max-width:680px){.page-home .hero h1{font-size:clamp(40px,10.8vw,62px)}.page-home .hero-script{font-size:1.32em}.page-home .entry-title{font-size:14px}.page-home .entry-kicker{font-size:10px}.page-home .entry-path{padding-block:15px;grid-template-columns:21px 1fr 36px}.page-home .hero-art{margin-top:28px}.page-home .hero:before{background:linear-gradient(160deg,#f7f9f6 8%,#e8eff8 100%)}}
+@media(max-width:360px){.page-home .hero h1{font-size:36px}.page-home .entry-title{font-size:12px}}
