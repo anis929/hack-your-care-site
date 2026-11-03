@@ -16,7 +16,7 @@ Depuis le dépôt : `python -m http.server 8080 --directory docs`, puis ouvrir `
 ## GitHub Pages
 
 La source de publication est la branche `main`, dossier `/docs`.
-GitHub Pages sur un dépôt privé dépend du forfait GitHub. Le site publié peut être public même lorsque le dépôt est privé.
+Adresse du site : https://anis929.github.io/hack-your-care-site/
 
 ## Statut éditorial
 
@@ -32,4 +32,4 @@ Polices Manrope et Caveat : licences SIL Open Font License incluses dans `docs/a
 
 ## État de l’hébergement
 
-Le dépôt est privé. Au moment de sa création, GitHub affiche « Upgrade or make this repository public to enable Pages ». Aucun hébergement public n’a été activé et la confidentialité du dépôt est conservée.
+Le dépôt est public, conformément au choix de publication. GitHub Pages est configuré pour servir la branche `main`, dossier `/docs`, en HTTPS.
